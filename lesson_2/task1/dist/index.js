@@ -10,7 +10,7 @@ const userData = {
   age: 30
 };
 
-const profile = _objectSpread({}, userData, {
+const profile = _objectSpread(_objectSpread({}, userData), {}, {
   company: 'Gromcode'
 });
 
