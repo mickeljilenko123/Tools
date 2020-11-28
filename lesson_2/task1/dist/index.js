@@ -6,8 +6,8 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 import { printProfile } from './profile';
 const userData = {
-  name: 'Victor',
-  age: 30
+  name: 'Tom',
+  age: 17
 };
 
 const profile = _objectSpread(_objectSpread({}, userData), {}, {
