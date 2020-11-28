@@ -1,8 +1,8 @@
-import { printProfile } from './profile'; 
+import { printProfile } from './profile';
 
 const userData = {
-    name: 'Victor',
-    age: 30,
+    name: 'Tom',
+    age: 15
 };
 
 const profile = {
