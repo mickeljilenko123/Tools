@@ -1,0 +1,12 @@
+{
+    "presets":[
+        [
+            "babel/preset-env",
+            {
+                "targets": "> 1%",
+                "userBuildInt": "usage",
+                "core-js": 3
+            }
+        ]
+    ]
+}
