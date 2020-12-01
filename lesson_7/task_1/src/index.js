@@ -1,20 +1,9 @@
-import { printProfile } from './profile';
+import renderProfile from './profile/renderProfile';
+import './index.css';
 
-const userData = {
+const profileData = {
     name: 'Tom',
-    age: 17,
+    location: 'The World'
 };
 
-const profile = {
-    ...userData,
-    company: 'Gromcode',
-};
-
-printProfile(profile);
-
-const data = [1, 2, [3, 4, [5, 6]]];
-
-const result = data.flat(2);
-console.log(result);
-
-Promise.resolve().finally();
+renderProfile(profileData);
